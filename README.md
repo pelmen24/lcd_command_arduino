@@ -44,11 +44,11 @@ code.lcd.clear
 `text_disp_animation` - код который выводит текст с анимацией
 
 # Подключение дисплея к Arduino UNO [Рекомендация Chat GPT]
-| Порт на I2C | Arduino UNO |
-| --- | --- |
-| GND | GND |
-| VCC | 5V  |
-| SDA | A4  |
-| SCL | A5  |
+| Порт на I2C | Arduino UNO | ESP32 |
+| --- | --- | --- |
+| GND | GND | GND |
+| VCC | 5V  | 3.3V или 5V |
+| SDA | A4  | GPIO 21 |
+| SCL | A5  | GPIO 22 |
 
 
