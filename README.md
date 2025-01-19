@@ -1,4 +1,3 @@
-# lcd_command_arduino
 ## В данном коде используются следющие библиотеки
 | библиотеки |
 | --- |
@@ -35,6 +34,10 @@ code.lcd.disp r1:"" r2:""
 code.lcd.clear
 ```
 
+# Все команды выполнять в мониторе порта
+![image](https://github.com/user-attachments/assets/5bfc3b5e-4117-41b8-acb7-a425ecef224f)
+
+
 # Папки с .ino скетчами
 `text_disp_command` - код который выводит просто текст без анимации "набора"
 
@@ -47,3 +50,5 @@ code.lcd.clear
 | VCC | 5V  |
 | SDA | A4  |
 | SCL | A5  |
+
+
